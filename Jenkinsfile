@@ -5,7 +5,7 @@ EKS_NAMESPACE='default'
 EKS_JENKINS_CREDENTIAL_ID='kubectl-deploy-credentials'
 ECR_PATH = '903716338631.dkr.ecr.ap-northeast-2.amazonaws.com'
 ECR_IMAGE = 'test-repository'
-AWS_CREDENTIAL_ID = 'aws-credentials'
+AWS_CREDENTIAL_ID = 'jenkins-aws-credentials'
 
 node {
     stage('Clone Repository'){
